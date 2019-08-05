@@ -23,6 +23,7 @@ body {
   width: 100%;
   text-align: center;
   position: fixed;
+  z-index: 2;
 }
 
 
@@ -47,6 +48,11 @@ body {
   margin: 15px 0;
   border: none;
   text-decoration: none;
+}
+
+.btn__contact:hover {
+  transition: all .3s;
+  color: #333;
 }
 
 
@@ -169,7 +175,13 @@ body {
   float: left;
   margin-right: 100px;
   margin-bottom: 80px;
+  opacity: .7;
 
+}
+
+.image:hover {
+  transition: all .3s;
+  opacity: 1;
 }
 
 .image:nth-child(3n) {
@@ -194,9 +206,15 @@ justify-content: center;
   padding: 14px 20px;
   background-color: #74cfae;
   color: #fff;
-  border: none;x
+  border: none;
   display: inline-block;
   text-decoration: none;
+  vertical-align: middle;
+}
+
+.article__btn:hover {
+  transition: all .3s;
+  color: #333;
 }
 
 .sec2--inner {
